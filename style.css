@@ -50,5 +50,17 @@ input[type=range]{accent-color:#D9A7AE}
 .peek{transition:transform .5s cubic-bezier(.19,.8,.1,1)}
 .card:hover .peek{transform:translateY(-6px)}
 @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation:none !important;transition:none !important}}
+
+@media (max-width: 700px){
+[style*="Bodoni Moda"]{font-family:'Lora',Georgia,serif !important;letter-spacing:-0.01em !important}
+.pont-law{padding:30px 0 6px !important}
+.pont-arrow{flex:1 1 100% !important;min-width:0 !important;justify-content:flex-start !important;padding:14px 0 !important}
+.pont-arrow>div{display:none !important}
+.pont-arrow::after{content:"";width:2px;height:34px;margin-left:0;background:linear-gradient(#4E2A31,#D9A7AE)}
+.pont-tech{padding:6px 0 34px 18px !important;border-left:2px solid #D9A7AE}
+.pont-law p,.pont-tech p{font-size:23px !important}
+.stats{gap:36px !important}
+.stats>div{padding:0 !important}
+}
 [hidden]{display:none !important}
 @media (max-width: 700px){.site-header{position:static !important}.hero-badge{width:92px !important;top:0 !important;right:0 !important}}
